@@ -1,0 +1,182 @@
+html {
+  height: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+body {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: "Arial";
+  font-size: 25px;
+  margin: 0 auto;
+}
+
+header {
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 2.5vw 0 2vw;
+  position: relative;
+  transform-style: inherit;
+  width: 100vw;
+  margin: 0 auto;
+}
+
+header h1 {
+  margin-top: -100px;
+  text-indent: 320px;
+  margin: 0 auto;
+}
+
+header h2 {
+  text-align: left;
+  font-size: 20px;
+  position: absolute;
+  top: 97px;
+  left: 350px;
+  margin: 0 auto;
+}
+
+header h3 {
+  padding: 31vw 0 2vw;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+header, header:before {
+  background: 50% 50% / cover;
+  margin: 0 auto;
+}
+
+header::before {
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: block;
+  background-image: url(titan.jpeg);
+  background-size: cover;
+  transform-origin: center center 0;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+header * {
+  font-weight: normal;
+  letter-spacing: 0.2em;
+  text-align: center;
+  margin: 0;
+  padding: 1em 0;
+}
+
+p {
+  padding: 5vw 10vw 15vw;
+}
+
+/*CONTAINERS AND STUFF*/
+
+body {
+  background-color: #1d1b1c;
+}
+
+img {
+  border-radius: 25px;
+  position: absolute;
+  right: 125px;
+  top: 1680px;
+}
+
+.box1 {
+  margin: 0 auto;
+  font-size: 24px;
+  text-align: center;
+  height: 1310px;
+  padding: 55vw 0vw 6vw;
+}
+
+.box2 {
+  top: 305%;
+  left: 52%;
+  width: 540px;
+  height: 580px;
+  padding: 50px;
+  border: 1px solid gold;
+  border-radius: 15px;
+  position: absolute;
+}
+
+.box3 {
+  top: 305%;
+  left: 5%;
+  width: 540px;
+  height: 580px;
+  padding: 50px;
+  border: 1px solid gold;
+  border-radius: 15px;
+  position: absolute;
+}
+
+/* Paragraphs AND WRITING */
+
+p {
+  font-family: "Arial";
+  text-align: left;
+  width: 800px;
+  padding: 9vw 3vw 0vw;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+p2 {
+  font-family: "Arial";
+  text-align: right;
+  top: -100px;
+  position: relative;
+}
+
+p3 {
+  font-family: "Arial";
+  text-align: right;
+  top: -140px;
+  position: relative;
+}
+
+h4 {
+  position: absolute;
+  top: 1615px;
+  left: 50px;
+  font-size: 40px;
+}
+
+h5 {
+  font-size: 30px;
+  font-family: Arial;
+  top: -75px;
+  position: relative;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: thin;
+  padding: 5px;
+}
+
+h6 {
+  font-size: 30px;
+  font-family: Arial;
+  top: -95px;
+  position: relative;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: thin;
+  padding: 5px;
+  padding-bottom: 6px;
+}
